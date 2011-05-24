@@ -26,12 +26,12 @@ minimal css for easy customization.
 	$('.container').mimikslide({
 		buttonleft: 	$('a.left'),
 		buttonright: 	$('a.right'),
-		randomize: 		false,
+		randomize: 	false,
 		slidespeed: 	500,
 		easingtype: 	'easeInOutSine',
-		autoslide: 		false,
-		direction:		'right',
-		pause: 			1000
+		autoslide: 	false,
+		direction:	'right',
+		pause: 		1000
 	});
 
 5. see bellow for markup and settings, basiclly just give your li a width and height
@@ -40,12 +40,12 @@ minimal css for easy customization.
 This is the default settings
 	buttonleft: 	$('a.left'),		// define the button-left
 	buttonright: 	$('a.right'),		// define the button-right
-	randomize: 		false,				// true or false, if you want to randomize your li order
-	slidespeed: 	500, 				//set the speed of the slideanimation in milliseconds
+	randomize: 		false,		// true or false, if you want to randomize your li order
+	slidespeed: 	500, 			//set the speed of the slideanimation in milliseconds
 	easingtype: 	'easeInOutSine', 	//select easing http://gsgd.co.uk/sandbox/jquery/easing/
-	autoslide: 		false, 				// true or false, if you want it to autoslide
-	direction:		'right', 			// left or right, select slide direction if autoslide is true
-	pause: 			1000,				// pause between slides in milliseconds if autoslide is true
+	autoslide: 		false, 		// true or false, if you want it to autoslide
+	direction:		'right', 	// left or right, select slide direction if autoslide is true
+	pause: 			1000,		// pause between slides in milliseconds if autoslide is true
 
 
 /*====	HTML MARKUP ====
@@ -87,15 +87,15 @@ This is the default settings
 (function($){
    $.fn.mimikslide = function(options) {
       options = $.extend({
-		container: 		$(this),			// Define container for slider
+		container: 		$(this),	// Define container for slider
 		buttonleft: 	$('a.left'),		// define the button-left
 		buttonright: 	$('a.right'),		// define the button-right
-		randomize: 		false,				// true or false, if you want to randomize your li order
-		slidespeed: 	500, 				//set the speed of the slideanimation in milliseconds
+		randomize: 		false,		// true or false, if you want to randomize your li order
+		slidespeed: 	500, 			//set the speed of the slideanimation in milliseconds
 		easingtype: 	'easeInOutSine', 	//select easing http://gsgd.co.uk/sandbox/jquery/easing/
-		autoslide: 		false, 				// true or false, if you want it to autoslide
-		direction:		'right', 			// left or right, select slide direction if autoslide is true
-		pause: 			1000,				// pause between slides in milliseconds if autoslide is true
+		autoslide: 		false, 		// true or false, if you want it to autoslide
+		direction:		'right', 	// left or right, select slide direction if autoslide is true
+		pause: 			1000,		// pause between slides in milliseconds if autoslide is true
       }, options); 
 
 		return this.each(function () {
