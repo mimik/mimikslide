@@ -6,7 +6,7 @@ URL:	http://kimgunnarsson.com
 
 ==== DESC ====
 
-A simple container with an ul, some li, and 2 buttons is all you need to start sliding!
+A simple container with an ul, some li, and two buttons is all you need to start sliding!
 uses jQuery Easing 1.3 http://gsgd.co.uk/sandbox/jquery/easing/
 minimal css for easy customization.
 
@@ -14,7 +14,7 @@ minimal css for easy customization.
 ==== INSTALLATION ====
 
 1. 	add jQuery
-2. 	add the plugi
+2. 	add the plugin
 3. 	call mimikslide(); on your container like this:
 	$('.container').mimikslide();
 
@@ -31,7 +31,7 @@ minimal css for easy customization.
 		pause: 		1000
 	});
 
-5. see bellow for markup and settings, basiclly just give your li a width and height
+5. see bellow for markup and settings, basically just give your li a width and height
 
 ==== SETTINGS ====
 This is the default settings
