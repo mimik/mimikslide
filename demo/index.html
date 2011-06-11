@@ -1,21 +1,81 @@
 <!DOCTYPE HTML>
-<html lang="en_US"><head><meta charset="UTF-8"><title>Mimikslide - Demo</title> <style type="text/css">html{background:#CCC;text-align:center;}#wrap{background:#fff;width:1002px; margin:0 auto;} .container {
-	height:500px;
-    overflow:hidden;
-    width:1000px;
-    padding:0;
-    margin:0;
-    position:relative;
-}
-.container ul{padding:0;margin:0;list-style: none;}.container ul li {float: left;width: 1000px;}.right, .left {
-    position:absolute;
-    display:block;
-    cursor:pointer;
-    margin:0 200px;
-    width:200px;
-    line-height:200px;
-    background:#fff;
-    font-size:48px;
-    top:0;
-}.left{left:0;}.right{right:0;} </style></head><body> <div id="wrap"> <h1>Mimikslide</h1><div class="right">→</div> <div class="left">←</div> <div class="container"> <ul> <li>1</li> <li>2<br/><br/><br/></li> <li>3<br/><br/><br/><br/><br/><br/><br/></li> <li>4<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></li> <li>5</li> <li>6<br/><br/><br/><br/><br/><br/></li> <li>7</li> </ul>  </div> </div> <script src="assets/jquery-1.5.2.min.js"></script> <script src="../mimikslide-2.0.js"></script> <script type="text/javascript">
-$(function(){$('.container').mimikslide();}); </script></body></html>
+<html lang="en_US"><head><meta charset="UTF-8"><title>Mimikslide - Demo</title>
+<head>
+	<style type="text/css">
+		html{
+			background:#CCC;
+			text-align:center;
+		}
+		
+		#wrap{
+			background:#fff;
+			width:1002px; 
+			margin:0 auto;
+			} 
+			
+		.container {
+		height:500px;
+	    overflow:hidden;
+	    width:1000px;
+	    padding:0;
+	    margin:0;
+	    position:relative;
+		}
+		
+		.container ul{
+			padding:0;
+			margin:0;
+			list-style: none;
+		}
+		
+		.container ul li {
+			float: 
+			left;width: 
+			1000px;
+		}
+		
+		.right, .left {
+	    position:absolute;
+	    display:block;
+	    cursor:pointer;
+	    margin:0 200px;
+	    width:200px;
+	    line-height:200px;
+	    background:#fff;
+	    font-size:48px;
+	    top:0;
+		}
+		
+		.left{
+			left:0;
+		}
+		
+		.right{
+			right:0;
+		} 
+	</style>
+</head>
+<body> 
+	<div id="wrap">
+		<h1>Mimikslide</h1>
+	    <div class="right">→</div>
+	    <div class="left">←</div>
+	    <div class="container">
+	    	<ul>
+	        	<li>1</li>
+	            <li>2<br/><br/><br/></li>
+	            <li>3<br/><br/><br/><br/><br/><br/><br/></li>
+	            <li>4<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></li>
+	            <li>5</li>
+	            <li>6<br/><br/><br/><br/><br/><br/></li>
+	            <li>7</li>
+	        </ul>  
+		</div>
+	</div>
+	<script src="assets/jquery-1.5.2.min.js"></script>
+	<script src="../mimikslide-2.0.js"></script>
+    <script type="text/javascript">
+		$(function(){$('.container').mimikslide();}); 
+	</script>
+</body>
+</html>
