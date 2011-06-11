@@ -25,18 +25,18 @@ For helping and doing the IE7 debugging.
 	$('.container').mimikslide({
 		buttonleft: 	$('a.left'),
 		buttonright: 	$('a.right'),
-		randomize: 		false,
+		randomize: 	false,
 		slidespeed: 	500,
-		autoslide: 		false,
-		direction:		'right',
-		pause: 			1000,
-		keysupport:		true
+		autoslide: 	false,
+		direction:	'right',
+		pause: 		1000,
+		keysupport:	true
 	});
 
 3. see bellow for markup and settings, basiclly just give your li a width and height.
 You could also check the demo files for more information.
 
-Live example here http://mimik.nu/mimikslide/demo/
+Live example here http://mimik.nu/mimikslide/demo/ (very basic demo)
 
 
 ==== HTML ====
