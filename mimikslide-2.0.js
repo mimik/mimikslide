@@ -36,7 +36,7 @@ Use default settings or use custom settings like this:
 		autoslide: 		false, 			// true or false, if you want it to autoslide
 		direction:		'right', 		// left or right, select slide direction if autoslide is true
 		pause: 			1000,			// pause between slides in milliseconds if autoslide is true
-		keysupport:		true,			// Adds support for keyboard arrows left and right	
+		keysupport:		true			// Adds support for keyboard arrows left and right	
       }, options); 
 
 		return this.each(function () {
@@ -49,7 +49,7 @@ Use default settings or use custom settings like this:
 		var autoslide 	= 	options.autoslide
 		var direction 	=	options.direction
 		var pause 		=  	options.pause
-		var keysupport	=	option.keysupport
+		var keysupport	=	options.keysupport
 		
 		// find the ul in the container
 		var slideul = container.children('ul');
