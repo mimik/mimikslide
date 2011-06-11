@@ -1,0 +1,89 @@
+Mimikslide - A simple slideshow plugin
+Author: Kim Gunnarsson
+E-mail:	hello@kimgunnarsson.com 
+URL:	http://kimgunnarsson.com
+
+A simple Ul slideshow plugin for jQuery
+
+=== version 2.1 ===
+*Added IE7 support
+
+Big thanks to 
+Jonathan Wilsson 	http://www.jonathanwilsson.com/
+Thomas Rambaud 		http://thomasrambaud.com/
+
+For helping and doing the IE7 debugging.
+
+
+==== INSTALLATION ====
+
+1. 	call mimikslide(); on your container like this:
+	$('.container').mimikslide();
+
+2. use default settings or use custom settings like this:
+
+	$('.container').mimikslide({
+		buttonleft: 	$('a.left'),
+		buttonright: 	$('a.right'),
+		randomize: 		false,
+		slidespeed: 	500,
+		autoslide: 		false,
+		direction:		'right',
+		pause: 			1000,
+		keysupport:		true
+	});
+
+3. see bellow for markup and settings, basiclly just give your li a width and height.
+You could also check the demo files for more information.
+
+Live example here http://mimik.nu/mimikslide/demo/
+
+
+==== HTML ====
+<div class="right">→</div>
+<div class="left">←</div>
+
+<div class="container">
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>  
+</div>
+
+	
+==== CSS ====
+.container {
+    overflow:hidden;
+    width:500px;
+    padding:0;
+    margin:0;
+    position:relative;
+}
+
+	
+.container ul{
+		list-style: none;
+}
+.container ul li {
+    float: left;
+    width: 500px;
+}
+.right, .left {
+    position:absolute;
+    display:block;
+    cursor:pointer;
+    margin:0 200px;
+    width:200px;
+    line-height:200px;
+    background:#fff;
+    font-size:48px;
+    top:0;
+}
+
+For a Demo of this plugin in use visit http://mimik.nu/mimikslide/demo/ or http://mimik.nu
+
